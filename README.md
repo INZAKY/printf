@@ -1,23 +1,21 @@
-# printf:tada:
+# printf
 
-## Description:page_facing_up:
+### Description
 
 ------------
 
-[![printf.jpg](https://i.postimg.cc/QtBH3tmV/printf.jpg)](https://postimg.cc/S2hyLmwp)
 
 The printf function sends formatted output to stdout.
-A custom _printf() for learning purposes was developed by cohort  #8 students Nicks and Musa parsanka.
+A custom _printf() for learning purposes was developed by cohort  #9 students Jimmer and Edward Ortiz.
 _printf() function format string is a character string, beginning and ending in its initial shift state, if any. 
 These arguments are placed using the percentage '%' operator
 
 ------------
 
 
-### Resources
+#### Resources
 
 ------------
-
 
 
 Secrets of printfby Don colton
@@ -42,7 +40,7 @@ va_arg (man 3 va_arg)
 
 ------------
 
-#### Compilation:alembic:
+#### Compilation
 
 ------------
 
@@ -54,7 +52,7 @@ The code must be compiled this way:
 
 As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 
-The main files will include your main header file (main.h): **#include main.h**
+The main files will include your main header file (holberton.h): **#include holberton.h**
 
 ------------
 
@@ -67,8 +65,8 @@ The main files will include your main header file (main.h): **#include main.h**
 **Use - General:** _printf("format string", var1, var2, ...);
 
 **Examples:**
- - Basic String: _printf("%s Alx", "Hello");`
-	 - Output: Hello Alx
+ - Basic String: _printf("%s Holberton", "Hello");`
+	 - Output: Hello Holberton
 
 - Print integers: _printf("This is an array element: arr[%d]:%c", 32, arr[32]);`
 	- Output: This is an array element arr[32]:A
@@ -88,7 +86,7 @@ Specifier                |Output                        |Examples |
 |----------------|-------------------------------|-----------------------------|
 | `c` | Character | y |
 | `d` or `i` | Signed integer | 1024, -1024 |
-| `s` | String of characters | Hello Alx |
+| `s` | String of characters | Hello Holberton |
 | `b` | Binary Representation of unsigned integer | 01010110 |
 | `u` | Unsigned integer | 1024 |
 | `o` | Unsigned octal | 432 |
@@ -140,7 +138,7 @@ Specifier                |Output                        |Examples |
 |Name                |Information                        |Relevant Files                         |
 |----------------|-------------------------------|-----------------------------|
 |`man_3_printf`|Man page of the _printf() function.| `None` |
-|`main.h`	| Header file with the data type struct, standard libraries and custom prototypes.| `*.c compilation` |
+|`holberton.h`	| Header file with the data type struct, standard libraries and custom prototypes.| `*.c compilation` |
 |`_printf.c`|Main printf function file. Calls other functions.|`printf_(name of var).c file` |
 |`printf_37.c`|Contains percentage print function.|`None` |
 |`printf_int.c` | Contains decimal and integer functions. | `None` | 
@@ -162,19 +160,19 @@ Specifier                |Output                        |Examples |
 
 ------------
 
-## Tasks required for this project
+#### Tasks required for this project
 
 
 ------------
 
-0. ### I am not going anywhere. You can print that wherever you want to. I'm here and I am a Spur for life1.  I am not going anywhere. You can print that wherever you want to. I'm here and I am a Spur for life. 
+0. ###### I am not going anywhere. You can print that wherever you want to. I'm here and I am a Spur for life1.  I am not going anywhere. You can print that wherever you want to. I'm here and I am a Spur for life. 
 Write a function that produces output according to a format.
 Handle the following conversion specifiers:
 - c
 - s
 - %
 
-1. ### Education is when you read the fine print. Experience is what you get if you dont
+1. ###### Education is when you read the fine print. Experience is what you get if you dont
 Handle the following conversion specifiers:
 - d
 - i
@@ -232,15 +230,14 @@ Handle the - flag character for non-custom conversion specifiers.
 Handle the following custom conversion specifier:
  - r : prints the reversed string
 
-15. ###### [The flood of print has turned reading into a process of gulping rather than savoring] 
+15. ###### The flood of print has turned reading into a process of gulping rather than savoring 
 Handle the following custom conversion specifier:
 - R: prints the rot13'ed string
 
 16. ###### *
 All the above options work well together.
-# Disclaimer
-If you happen to use these repo we scored `158%`
+
 ### Authors &copy;
 
-- Nicks
-- Musa Parsanka
+- Jimmer Hernandez
+- Edward Ortiz
